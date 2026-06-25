@@ -47,7 +47,7 @@ The interactive dashboard provides a comprehensive view of sales performance thr
 - `images/dashboard_screenshots/full_dashboard.png`
 - `images/before_after_comparison.png`
 ## Screenshots
-- Raw data sample
+- Raw data sample ![Alt text](Screenshot/Raw Dataset.png)
 - Cleaning steps
 - QA checks
 - Final dashboard
