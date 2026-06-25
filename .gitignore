@@ -1,0 +1,16 @@
+# Windows system files
+Thumbs.db
+desktop.ini
+
+# Excel temporary files
+~$*.xlsx
+~$*.xlsm
+~$*.xls
+
+# Obsidian workspace/system files
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+
+# Temporary files
+*.tmp
+*.bak
