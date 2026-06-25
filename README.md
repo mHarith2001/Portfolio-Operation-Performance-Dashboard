@@ -47,9 +47,9 @@ The interactive dashboard provides a comprehensive view of sales performance thr
 - `images/dashboard_screenshots/full_dashboard.png`
 - `images/before_after_comparison.png`
 ## Screenshots
-- - Raw data sample ![https://github.com/mHarith2001/Project-A-Operation-Performance-Dashboard/blob/9196e95d29d4a4c4d00a023296c90dab4cadeaa0/Screenshot/Raw%20Dataset.png]
-- Cleaning steps ![Rawdata]()
-- QA checks ![Rawdata]()
+- - Raw data sample [https://github.com/mHarith2001/Project-A-Operation-Performance-Dashboard/blob/9196e95d29d4a4c4d00a023296c90dab4cadeaa0/Screenshot/Raw%20Dataset.png]
+- Cleaning steps 
+- QA checks
 - Final dashboard ![full_dashboard](https://github.com/mHarith2001/Project-A-Operation-Performance-Dashboard/blob/9196e95d29d4a4c4d00a023296c90dab4cadeaa0/Screenshot/dashboard_screenshot/full_dashboard.png)
 ## How to Open the Workbook
 - Open `Lead_Conversion_Dashboard.xlsx` in Microsoft Excel
