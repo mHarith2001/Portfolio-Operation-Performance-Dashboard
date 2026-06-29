@@ -74,8 +74,6 @@ The raw CSV file is intentionally excluded from the repository. The cleaned CSV 
 ### Raw Data Sample
 ![Raw data sample](images/raw_dataset.png)
 
-### QA Dashboard
-![QA dashboard](images/qa_dashboard.png)
 
 ## How to Open the Workbook
 1. Open `workbook/operation_performance_dashboard.xlsx` in Microsoft Excel.
