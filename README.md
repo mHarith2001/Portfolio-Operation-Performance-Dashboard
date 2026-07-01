@@ -4,7 +4,7 @@
 This project demonstrates an end-to-end data cleaning and business intelligence workflow built entirely in Microsoft Excel. I transformed a compromised CRM lead dataset of 2,999 records into a clean, analysis-ready dataset of 2,550 unique leads, then built an interactive operational dashboard for lead conversion, response speed, engagement, and agent performance.
 
 The work focuses on practical Excel analytics: formulas, tables, data validation, conditional formatting, PivotTables, slicers, and dashboard design.
-
+![Final dashboard](images/dashboard_screenshots/full_dashboard.png)
 ## Business Problem
 A service organization needed a reliable view of CRM lead performance. The raw CRM export contained duplicate lead IDs, inconsistent status labels, mixed date formats, response-time values in different units, city spelling variations, and invalid interaction counts.
 
