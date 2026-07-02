@@ -5,11 +5,7 @@
 **Tool:** Microsoft Excel
 
 ## 1. Profiling
-- **Action:** Created a profiling sheet to establish the starting dataset size and inspect structural issues before cleaning.
-- **Formula:** `=ROWS(Table1[Lead_ID])`
-- **Result:** Confirmed the dataset contained 2,999 raw records and identified the main data-quality issues for correction.
-- **Why:** Profiling created the baseline used to validate each later cleaning step.
-
+I reviewed and cleaned the CRM lead dataset in Microsoft Excel by first profiling the raw data, which had 2,999 records. Then, I standardized lead IDs, client names, city names, status labels, dates, response times, interaction counts, and sales tiers using Excel formulas, mapping sheets, validation rules, and conditional formatting. After that, I removed duplicate records, fixed data-quality issues, and created a clean dataset with 2,550 unique leads. In result, the cleaned data became more accurate, consistent, and ready for dashboard analysis.
 ![Profiling](../images/cleaning_steps/profiling.png)
 
 ## 2. Lead ID - Standardize and Flag Duplicates
