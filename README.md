@@ -1,11 +1,18 @@
 # Project A - Operational Performance & Lead Conversion Dashboard
 
 ## Overview
-This project demonstrates an end-to-end data cleaning and business intelligence workflow built entirely in Microsoft Excel. I transformed a compromised CRM lead dataset of 2,999 records into a clean, analysis-ready dataset of 2,550 unique leads, then built an interactive operational dashboard for lead conversion, response speed, engagement, and agent performance.
+Welcome to my portfolio project overview. In this project, I have demonstrated an end-to-end data cleaning and business intelligence workflow built entirely in Microsoft Excel. I transformed a compromised CRM lead dataset of 2,999 records into a clean, analysis-ready dataset of 2,550 unique leads, then built an interactive operational dashboard for lead conversion, response speed, engagement, and agent performance.
 
 The work focuses on practical Excel analytics: formulas, tables, data validation, conditional formatting, PivotTables, slicers, and dashboard design.
+
+## Screenshots
 ### Final Dashboard
 ![Final dashboard](images/dashboard_screenshots/full_dashboard.png)
+### Before and After
+![Before and after dashboard](images/before_after_comparison.png)
+### Raw Data Sample
+![Raw data sample](images/raw_dataset.png)
+
 ## Business Problem
 A service organization needed a reliable view of CRM lead performance. The raw CRM export contained duplicate lead IDs, inconsistent status labels, mixed date formats, response-time values in different units, city spelling variations, and invalid interaction counts.
 
@@ -18,17 +25,15 @@ The dashboard was designed to help answer:
 
 ## Method
 The project followed the APPASA workflow:
-
 - **Assess:** Profiled the raw dataset and identified data-quality issues across all columns.
 - **Prepare:** Created a controlled workbook structure, backup flow, and mapping sheets for repeatable cleaning.
 - **Process:** Used Excel formulas to standardize IDs, names, cities, statuses, dates, response times, interaction counts, and sales tiers.
 - **Study:** Built PivotTables and KPI calculations to analyze lead distribution, conversion rate, response speed, engagement, and agent performance.
 - **Act:** Designed an interactive dashboard and documented the cleaning process for portfolio review.
 
-## Tools Used
-- Microsoft Excel
+## Tools, Formulas, and Functions Used in Microsoft Excel
 - Excel Tables and structured references
-- Formulas including `TRIM`, `PROPER`, `UPPER`, `VLOOKUP`, `LET`, `IFERROR`, `IFS`, `MAXIFS`, and `PERCENTILE.INC`
+- Formulas and functions, including `TRIM`, `PROPER`, `UPPER`, `VLOOKUP`, `LET`, `IFERROR`, `IFS`, `MAXIFS`, and `PERCENTILE.INC`
 - PivotTables, charts, slicers, and timeline filters
 - Data validation and conditional formatting
 
@@ -62,19 +67,7 @@ The project followed the APPASA workflow:
 - `docs/executive_summary.md` - Portfolio-ready project summary.
 - `images/` - Dashboard, QA, validation, and cleaning screenshots.
 
-The raw CSV file is intentionally excluded from the repository. The cleaned CSV and workbook are included for portfolio review.
-
-## Screenshots
-
-### Final Dashboard
-![Final dashboard](images/dashboard_screenshots/full_dashboard.png)
-
-### Before and After
-![Before and after dashboard](images/before_after_comparison.png)
-
-### Raw Data Sample
-![Raw data sample](images/raw_dataset.png)
-
+Raw data is excluded. The cleaned CSV and Excel workbook are included for portfolio review.
 
 ## How to Open the Workbook
 1. Open `workbook/operation_performance_dashboard.xlsx` in Microsoft Excel.
@@ -84,9 +77,8 @@ The raw CSV file is intentionally excluded from the repository. The cleaned CSV 
 
 ## Contact
 This project is part of my professional data analytics portfolio.
-
-- **Name:** Muhammad Harith Bin Jamal
+- **Name:** Muhammad Harith
 - **Role Focus:** Junior Data Analyst / Business Intelligence
-- **Certifications:** Google Data Analytics Professional Certificate, Macquarie University Excel Skills for Business
+- **Certifications:** Google Data Analytics Professional Certificate, Google Business Intelligence, Macquarie University Excel Skills for Business
 - **GitHub:** [mHarith2001](https://github.com/mHarith2001)
 - **LinkedIn:** [Muhammad Harith](https://www.linkedin.com/in/muhammad-harith-4376332a0/)
