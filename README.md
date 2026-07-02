@@ -8,8 +8,8 @@ The work focuses on practical Excel analytics: formulas, tables, data validation
 ## Screenshots
 ### Final Dashboard
 ![Final dashboard](images/dashboard_screenshots/full_dashboard.png)
-### Before and After
-![Before and after dashboard](images/before_after_comparison.png)
+### Clean Data Sample
+![Clean Data Sample](images/Clean Data Sample.png)
 ### Raw Data Sample
 ![Raw data sample](images/raw_dataset.png)
 
