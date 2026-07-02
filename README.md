@@ -9,7 +9,7 @@ The work focuses on practical Excel analytics: formulas, tables, data validation
 ### Final Dashboard
 ![Final dashboard](images/dashboard_screenshots/full_dashboard.png)
 ### Clean Data Sample
-![Clean Data Sample](images/Clean Data Sample.png)
+[![Clean Data Sample](images/Clean Data Sample.png)](https://github.com/mHarith2001/Portfolio-Operation-Performance-Dashboard/blob/3d1a105a02ee734911c9fdd32fbc80bc9e8681a1/images/Clean%20Data%20Sample.png)
 ### Raw Data Sample
 ![Raw data sample](images/raw_dataset.png)
 
