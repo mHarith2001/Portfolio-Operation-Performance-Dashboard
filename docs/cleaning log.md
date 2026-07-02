@@ -6,6 +6,7 @@
 
 ## 1. Profiling
 I reviewed and cleaned the CRM lead dataset in Microsoft Excel by first profiling the raw data, which had 2,999 records. Then, I standardized lead IDs, client names, city names, status labels, dates, response times, interaction counts, and sales tiers using Excel formulas, mapping sheets, validation rules, and conditional formatting. After that, I removed duplicate records, fixed data-quality issues, and created a clean dataset with 2,550 unique leads. In result, the cleaned data became more accurate, consistent, and ready for dashboard analysis.
+
 ![Profiling](../images/cleaning_steps/profiling.png)
 
 ## 2. Lead ID - Standardize and Flag Duplicates
@@ -13,6 +14,7 @@ I reviewed and cleaned the CRM lead dataset in Microsoft Excel by first profilin
 - **Formula:** `=IF(COUNTIF($A$2:A2,"CL-"&TRIM(UPPER(Table1[@[Lead_ID]])))>1,"Duplicate","CL-"&TRIM(UPPER(Table1[@[Lead_ID]])))`
 - **Result:** Created a consistent lead ID format and identified 449 duplicate records.
 - **Why:** Consistent IDs are required before deduplication and lead-level analysis.
+
 ![Lead ID cleaning](../images/cleaning_steps/lead_id.png)
 
 ## 3. Client Name - Standardize Client Labels
