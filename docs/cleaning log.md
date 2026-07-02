@@ -20,6 +20,7 @@ I reviewed and cleaned the CRM lead dataset in Microsoft Excel by first profilin
 - **Formula:** `=SUBSTITUTE(TRIM(PROPER([@[Client_Name]]))," ","_")`
 - **Result:** Client names became consistent and easier to sort, filter, and analyze.
 - **Why:** Standardized labels reduce reporting noise and improve dashboard readability.
+
 ![Client name cleaning](../images/cleaning_steps/client_name.png)
 
 ## 4. City - Standardize City Names
@@ -27,6 +28,7 @@ I reviewed and cleaned the CRM lead dataset in Microsoft Excel by first profilin
 - **Formula:** `=IFERROR(VLOOKUP([@[City_Clean]],City_Mapping!A:B,2,FALSE),[@[City_Clean]])`
 - **Result:** Consolidated 68 city-name variations into a clean city list.
 - **Why:** Regional reporting depends on consistent city names.
+
 ![City mapping overview](../images/mapping_city.png)
 
 ## 5. Status - Standardize Pipeline Stages
@@ -34,8 +36,9 @@ I reviewed and cleaned the CRM lead dataset in Microsoft Excel by first profilin
 - **Formula:** `=IFERROR(VLOOKUP([@[Status_Norm]],Status_Mapping!D:E,2,FALSE),[@[Status_Norm]])`
 - **Result:** Reduced messy status labels into `New`, `Contacted`, `Qualified`, `Converted`, and `Lost`.
 - **Why:** Standardized statuses make funnel analysis and conversion tracking reliable.
+
 ![Status mapping 2](../images/cleaning_steps/status_mapping_2.png)
--
+
 ![Status mapping overview](../images/mapping_status.png)
 
 ## 6. Lead Date - Standardize Dates and Keep Latest Duplicate
