@@ -13,7 +13,6 @@ I reviewed and cleaned the CRM lead dataset in Microsoft Excel by first profilin
 - **Formula:** `=IF(COUNTIF($A$2:A2,"CL-"&TRIM(UPPER(Table1[@[Lead_ID]])))>1,"Duplicate","CL-"&TRIM(UPPER(Table1[@[Lead_ID]])))`
 - **Result:** Created a consistent lead ID format and identified 449 duplicate records.
 - **Why:** Consistent IDs are required before deduplication and lead-level analysis.
-
 ![Lead ID cleaning](../images/cleaning_steps/lead_id.png)
 
 ## 3. Client Name - Standardize Client Labels
@@ -21,7 +20,6 @@ I reviewed and cleaned the CRM lead dataset in Microsoft Excel by first profilin
 - **Formula:** `=SUBSTITUTE(TRIM(PROPER([@[Client_Name]]))," ","_")`
 - **Result:** Client names became consistent and easier to sort, filter, and analyze.
 - **Why:** Standardized labels reduce reporting noise and improve dashboard readability.
-
 ![Client name cleaning](../images/cleaning_steps/client_name.png)
 
 ## 4. City - Standardize City Names
@@ -29,8 +27,6 @@ I reviewed and cleaned the CRM lead dataset in Microsoft Excel by first profilin
 - **Formula:** `=IFERROR(VLOOKUP([@[City_Clean]],City_Mapping!A:B,2,FALSE),[@[City_Clean]])`
 - **Result:** Consolidated 68 city-name variations into a clean city list.
 - **Why:** Regional reporting depends on consistent city names.
-
-![City mapping detail](../images/cleaning_steps/city_mapping.png)
 ![City mapping overview](../images/mapping_city.png)
 
 ## 5. Status - Standardize Pipeline Stages
@@ -38,10 +34,8 @@ I reviewed and cleaned the CRM lead dataset in Microsoft Excel by first profilin
 - **Formula:** `=IFERROR(VLOOKUP([@[Status_Norm]],Status_Mapping!D:E,2,FALSE),[@[Status_Norm]])`
 - **Result:** Reduced messy status labels into `New`, `Contacted`, `Qualified`, `Converted`, and `Lost`.
 - **Why:** Standardized statuses make funnel analysis and conversion tracking reliable.
-
-![Status mapping 0](../images/cleaning_steps/status_mapping_0.png)
-![Status mapping 1](../images/cleaning_steps/status_mapping_1.png)
 ![Status mapping 2](../images/cleaning_steps/status_mapping_2.png)
+-
 ![Status mapping overview](../images/mapping_status.png)
 
 ## 6. Lead Date - Standardize Dates and Keep Latest Duplicate
@@ -51,7 +45,6 @@ I reviewed and cleaned the CRM lead dataset in Microsoft Excel by first profilin
 - **Why:** Clean dates are required for time-series analysis, slicers, and latest-record deduplication.
 
 ![Lead date cleaning](../images/cleaning_steps/lead_date.png)
-![Keep latest duplicate](../images/keep_latest_duplicate.png)
 
 ## 7. Response Time - Convert to Hours
 - **Action:** Standardized response-time values written as hours, days, text strings, and abbreviations. Created `Response_Time_Hours` and response-speed categories.
@@ -59,7 +52,6 @@ I reviewed and cleaned the CRM lead dataset in Microsoft Excel by first profilin
 - **Result:** Converted mixed response-time units into a comparable numeric hour value.
 - **Why:** Response-time analysis requires one consistent unit.
 
-![Response time cleaning 1](../images/cleaning_steps/response_time_1.png)
 ![Response time cleaning 2](../images/cleaning_steps/response_time_2.png)
 
 ## 8. Interaction Count - Standardize Interaction Values
@@ -69,7 +61,6 @@ I reviewed and cleaned the CRM lead dataset in Microsoft Excel by first profilin
 - **Why:** Engagement reporting needs consistent numeric interaction values.
 
 ![Interaction count cleaning 1](../images/cleaning_steps/interaction_count_1.png)
-![Interaction count cleaning 2](../images/cleaning_steps/interaction_count_2.png)
 
 ## 9. Target Sales - Categorize Sales Tiers
 - **Action:** Checked numeric target sales values and created `Sales_Tier` groups using percentile thresholds.
