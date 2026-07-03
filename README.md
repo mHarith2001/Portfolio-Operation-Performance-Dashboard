@@ -1,4 +1,4 @@
-# Project - Operational Performance & Lead Conversion Dashboard
+# Portfolio - Operational Performance & Lead Conversion Dashboard
 
 ## Overview
 Welcome to my portfolio project overview. In this project, I have demonstrated an end-to-end data cleaning and business intelligence workflow built entirely in Microsoft Excel. I transformed a compromised CRM lead dataset of 2,999 records into a clean, analysis-ready dataset of 2,550 unique leads, then built an interactive operational dashboard for lead conversion, response speed, engagement, and agent performance.
